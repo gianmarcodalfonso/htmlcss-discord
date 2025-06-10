@@ -10,6 +10,10 @@
   display: flex;
 }
 
+.j-c-center {
+  justify-content: center;
+}
+
 .a-c-center {
   align-content: center;
 }
@@ -25,6 +29,8 @@
 .line-h-40 {
   line-height: 40px;
 }
+
+/* colors */
 
 .bg-blue {
   background-color: blue;
@@ -58,12 +64,18 @@
   background-color: aqua;
 }
 
+/* border */
+
 .border-dash {
   border: 2px dashed black;
 }
 
 .border-dash-w {
   border: 2px dashed white;
+}
+
+.padding0-50 {
+  padding: 0px 50px;
 }
 
 .padding50-0 {
@@ -81,6 +93,8 @@
 .col-height-700 {
   height: 700px;
 }
+
+/* .col  */
 
 .col-100 {
   width: 100%;
@@ -106,6 +120,8 @@
   width: 36%;
 }
 
+/* text  */
+
 .white-text {
   color: white;
 }
@@ -126,7 +142,6 @@
 
 /* classes  */
 
-
 .container {
   max-width: 1080px;
   margin: 0 auto;
@@ -136,6 +151,8 @@
   max-width: 900px;
   margin: 0 auto;
 }
+
+/* tags  */
 
 header {
   padding: 15px 0px;
@@ -147,10 +164,25 @@ h1 {
   margin: 30px;
 }
 
+h2 {
+  font-size: 2.5rem;
+  margin: 30px 0px;
+}
+
 footer {
   height: 75px;
   margin-top: 1px;
 }
+
+/* #IDs  */
+
+#jumbotron {
+  background-image: url(./../img/jumbo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* selectors */
 
 div#bottom {
   height: 60px;
@@ -191,11 +223,6 @@ div#bottom {
   margin: 0 5px;
 }
 
-#jumbotron {
-  background-image: url(./../img/jumbo.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 #jumbotron-content {
   display: flex;
