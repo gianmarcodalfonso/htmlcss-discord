@@ -183,6 +183,10 @@
   margin: 0 auto;
 }
 
+.white-border-top {
+  border-top: 1px solid white;
+}
+
 /* tags  */
 
 header {
@@ -218,7 +222,6 @@ li {
 
 footer {
   height: 75px;
-  margin-top: 1px;
 }
 
 i {
@@ -287,6 +290,7 @@ div#bottom {
 #jumbotron-content>div {
   margin: 0px 150px;
 }
+
 
 .magic {
   background-image: url(./../img/stars.svg);
