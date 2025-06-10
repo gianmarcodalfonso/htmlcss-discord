@@ -4,14 +4,26 @@
   box-sizing: border-box;
 }
 
+.font {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 /* utility */
 
 .display-flex {
   display: flex;
 }
 
+.f-dir-column {
+  flex-direction: column;
+}
+
 .j-c-center {
   justify-content: center;
+}
+
+.a-i-center {
+  align-items: center;
 }
 
 .a-c-center {
@@ -74,8 +86,16 @@
   border: 2px dashed white;
 }
 
+.padding-25 {
+  padding: 25px;
+}
+
 .padding0-50 {
   padding: 0px 50px;
+}
+
+.padding0-150 {
+  padding: 0px 150px;
 }
 
 .padding50-0 {
@@ -126,6 +146,10 @@
   color: white;
 }
 
+.blue-text {
+  color: skyblue;
+}
+
 .white-box {
   background-color: white;
   border-radius: 20px;
@@ -135,6 +159,13 @@
 
 .black-box {
   background-color: rgb(0, 0, 0);
+  border-radius: 20px;
+  padding: 10px 15px;
+  margin: 15px;
+}
+
+.blue-box {
+  background-color: rgb(55, 131, 218);
   border-radius: 20px;
   padding: 10px 15px;
   margin: 15px;
@@ -168,6 +199,14 @@ h2 {
   font-size: 2.5rem;
   margin: 30px 0px;
 }
+
+h3 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+h5 {}
 
 img {}
 
@@ -236,4 +275,16 @@ div#bottom {
 
 #jumbotron-content>div {
   margin: 0px 150px;
+}
+
+.magic {
+  background-image: url(./../img/stars.svg);
+  padding: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.magic>span {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
