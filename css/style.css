@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* utility */
+
+.display-flex {
+  display: flex;
+}
+
+.a-c-center {
+  align-content: center;
+}
+
+.a-c-fend {
+  align-content: flex-end;
+}
+
+.line-h-40 {
+  line-height: 40px;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+.bg-pink {
+  background-color: pink;
+}
+
+.bg-lgrey {
+  background-color: lightgray;
+}
+
+.bg-green {
+  background-color: lightgreen;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-lcoral {
+  background-color: lightcoral;
+}
+
+.bg-amarine {
+  background-color: aquamarine;
+}
+
+.bg-aqua {
+  background-color: aqua;
+}
+
+.border-dash {
+  border: 2px dashed black;
+}
+
+.border-dash-w {
+  border: 2px dashed white;
+}
+
+.padding50-0 {
+  padding: 50px 0px;
+}
+
+.padding20-0-50-0 {
+  padding: 20px 0px 50px 0px;
+}
+
+.col-height-400 {
+  height: 400px;
+}
+
+.col-height-700 {
+  height: 700px;
+}
+
+.col-100 {
+  width: 100%;
+}
+
+.col-20 {
+  width: 20%;
+}
+
+.col-60 {
+  width: 60%;
+}
+
+.col-40 {
+  width: 40%;
+}
+
+.col-16 {
+  width: 16%;
+}
+
+.col-36 {
+  width: 36%;
+}
+
+/* classes  */
+
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.small-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+header {
+  height: 60px;
+  background-color: #ADD8E7;
+}
+
+footer {
+  height: 75px;
+  margin-top: 1px;
+}
+
+div#bottom {
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container#top {
+  display: flex;
+  background-color: #DAA51E;
+  height: 40px;
+}
+
+.box {
+  padding: 0px 10px;
+}
+
+.container#top .logo {
+  width: 20%;
+}
+
+.container#top .links {
+  width: 60%;
+}
+
+.container#top .login {
+  width: 20%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.links ul {
+  display: flex;
+  justify-content: center;
+}
+
+.links li {
+  display: inline-block;
+  margin: 0 5px;
+}
