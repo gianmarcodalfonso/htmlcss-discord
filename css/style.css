@@ -127,7 +127,7 @@
 
 header {
   padding: 15px 0px;
-  background-color: #ADD8E7;
+  background-color: #255EE9;
 }
 
 footer {
@@ -172,4 +172,10 @@ div#bottom {
 .links li {
   display: inline-block;
   margin: 0 5px;
+}
+
+#jumbotron {
+  background-image: url(./../img/jumbo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
