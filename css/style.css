@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-.font {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
 /* utility */
 
 .display-flex {
@@ -96,6 +92,10 @@
 
 .padding0-150 {
   padding: 0px 150px;
+}
+
+.padding150-0 {
+  padding: 150px 0px;
 }
 
 .padding50-0 {
@@ -206,9 +206,14 @@ h3 {
   margin-bottom: 20px;
 }
 
+h5 {
+  font-size: 1.2rem;
+}
+
 li {
   list-style-type: none;
   margin: 5px 0px;
+  color: white;
 }
 
 footer {
