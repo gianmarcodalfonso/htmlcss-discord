@@ -18,6 +18,10 @@
   align-content: flex-end;
 }
 
+.flex-column {
+  flex-direction: column;
+}
+
 .line-h-40 {
   line-height: 40px;
 }
@@ -112,6 +116,12 @@
   padding: 10px 15px;
 }
 
+.black-box {
+  background-color: rgb(0, 0, 0);
+  border-radius: 20px;
+  padding: 10px 15px;
+}
+
 /* classes  */
 
 
@@ -128,6 +138,10 @@
 header {
   padding: 15px 0px;
   background-color: #255EE9;
+}
+
+h1 {
+  font-size: 2.5rem;
 }
 
 footer {
@@ -178,4 +192,11 @@ div#bottom {
   background-image: url(./../img/jumbo.png);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#jumbotron-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
